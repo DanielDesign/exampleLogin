@@ -155,6 +155,10 @@ form .cont-pass .fa-eye{
   color: var(--font-color-iconEye);
 }
 
+form .cont-pass .fa-eye:hover{
+  cursor: pointer;
+}
+
 form .btn{
   outline: none;
   width: 100%;
