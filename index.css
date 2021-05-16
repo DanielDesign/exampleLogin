@@ -106,7 +106,7 @@ form{
 }
 
 form .title{
-  margin-bottom: .5em;
+  margin-bottom: 4%;
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: 2px 1px var(--color-inputFocus);
@@ -116,7 +116,7 @@ form .cont-form{
   display: flex;
   flex-direction: column;
   width: 100%;
-  row-gap: .5em;
+  row-gap: 8px;
 }
 
 form :nth-child(4){
@@ -126,7 +126,7 @@ form :nth-child(4){
 
 form .input{
   outline: none;
-  padding: .5em 1em;
+  padding: 8px 14px;
   border-radius: .5em;
   border: 2px solid var(--border-color-input);
   background-color: transparent;
@@ -138,14 +138,14 @@ form .input:focus{
 
 form .cont-pass{
   position: relative;
-  height: 2.5em;
+  height: 34px;
 }
 
 form .input.pass{
   position: absolute;
   width: 100%;
   margin-bottom: 10px;
-  padding-right: 2.2em;
+  /* padding-right: 2.2em; */
 }
 
 form .cont-pass .fa-eye{
@@ -162,7 +162,7 @@ form .cont-pass .fa-eye:hover{
 form .btn{
   outline: none;
   width: 100%;
-  padding: .8em;
+  padding: 14px;
   border-radius: 4em;
   border: none;
   font-size: 15px;
@@ -175,8 +175,8 @@ form .btn:hover, form .forgot-password{
 
 form .btn.signin{
   font-size: 17px;
-  margin-top: 1.8em;
-  margin-bottom: .7em;
+  margin-top: 20px;
+  margin-bottom: 10px;
   background: linear-gradient(to left, #fc7f41, #f46949, #e95351, #da3f58, #c82d5f);
 }
 
@@ -199,9 +199,9 @@ form .facebook , form .google {
 }
 
 form .facebook{
-  margin-top: 2em;
+  margin-top: 28px;
   background-color: var(--bg-color-buttonFacebook);
-  margin-bottom: .5em;
+  margin-bottom: 8px;
 }
 
 form .google{
@@ -230,13 +230,13 @@ form .google .content-svg img{
 }
 
 form .account{
-  margin-top: 1em;
+  margin-top: 11px;
 }
 
 form .create-account{
   color: var(--color-inputFocus);
   text-decoration-line: underline;
-  line-height: 1em;
+  /* line-height: 1em; */
 }
 
 form .create-account:hover{
